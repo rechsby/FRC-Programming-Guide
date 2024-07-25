@@ -65,6 +65,6 @@ int x = message.length // 4
 
 ## More Resources
 
-[W3Schools](https://www.w3schools.com/java/java_arrays.asp)
-[StackOverflow](https://stackoverflow.com/questions/5570882/how-to-use-java-util-arrays)
+[W3Schools](https://www.w3schools.com/java/java_arrays.asp)\
+[StackOverflow](https://stackoverflow.com/questions/5570882/how-to-use-java-util-arrays)\
 [Programiz](https://www.programiz.com/java-programming/arrays)
