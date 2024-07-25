@@ -30,7 +30,7 @@ int x = 3
 int y = 4
 double z = y / x // 4/3 = 1.33~?
 ```
-While the expected value of `z` is 1.33~, this is not the case. `z` a ends up having a value of 1. This is because since **both** `x` and `y` are of type `int`, it rounds to the nearest integer. To avoid this, make sure that at least one of the types you are dividing by is of type `double`
+While the expected value of `z` is 1.33~, this is not the case. `z` ends up having a value of 1. This is because since **both** `x` and `y` are of type `int`, it rounds to the nearest integer. To avoid this, make sure that at least one of the types you are dividing by is of type `double`
 
 ## Modulo
 >Given two positive numbers a and n, a modulo n (often abbreviated as a mod n) is the remainder of the division of a by n, where a is the dividend and n is the divisor.

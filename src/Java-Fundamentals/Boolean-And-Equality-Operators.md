@@ -9,8 +9,8 @@ There are 3 main boolean operators in Java (AND, OR, NOT). These operators are u
 ### The OR Operator ( || )
 
 Given 2 booleans, the `||` operator can be used to see if **either** of the 2 given booleans are true. This is illustrated in the table below:
-|  Input 1  |  Input 2  | Output
-| --- | --- | ---
+|  Input 1  |  Input 2  | Output |
+| --- | --- | --- |
 | True | False | True
 | False | True | True
 | False | False | False
@@ -18,14 +18,14 @@ Given 2 booleans, the `||` operator can be used to see if **either** of the 2 gi
 
 
 ```java
-bool x = true
-bool y = false
-bool result = x || y // true
+boolean x = true
+boolean y = false
+boolean result = x || y // true
 ```
 ```java
-bool x = false
-bool y = false
-bool result = x || y // false
+boolean x = false
+boolean y = false
+boolean result = x || y // false
 ```
 
 ### The AND Operator ( && )
@@ -38,14 +38,14 @@ Given 2 booleans, the `&&` operator can be used to see if **both** of the 2 give
 | False | False | False
 | True | True | True
 ```java
-bool x = true
-bool y = false
-bool result = x || y // false
+boolean x = true
+boolean y = false
+boolean result = x && y // false
 ```
 ```java
-bool x = true
-bool y = true
-bool result = x || y // true
+boolean x = true
+boolean y = true
+boolean result = x && y // true
 ```
 
 ### The NOT Operator ( ! )
@@ -56,8 +56,8 @@ The NOT operator is special as it only uses 1 boolean, the operator inverts what
 | True | False
 | False| True
 ```java
-bool x = !false // Not False: True
-bool y = !x // Not True: False
+boolean x = !false // Not False: True
+boolean y = !x // Not True: False
 ```
 ## Equality Operators
 Equality operators are used to create conditions. You can
