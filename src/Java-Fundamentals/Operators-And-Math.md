@@ -34,3 +34,5 @@ The Modulo operator is used to get the remainder of any given division. It's hel
 23 % 6
 ```
 
+## More Resources
+[CodeDamn](https://codedamn.com/news/java/what-is-modulo-modulus-remainder-operator-in-java)
