@@ -5,5 +5,7 @@ Java code is run on the Java Virtual Machine ([JVM](https://www.geeksforgeeks.or
 
 We use Java with [WPILib](https://docs.wpilib.org/en/stable/index.html) to program our robot. WPILib gets rid of major complexities relating to communicating and interacting with robot hardware and allows us to focus more on logic and cool features!
 
+Java code is stored in the .java file format. Usually, each .java file contains a single *class*. We will talk more about classes later, for now it is important to know that there is one per file.
+
 
 
