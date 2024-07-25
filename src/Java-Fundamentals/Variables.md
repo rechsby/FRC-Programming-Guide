@@ -14,16 +14,16 @@ Every variable has a data type. This data type tells the computer what it's stor
 ```java
 int x = 2;
 ```
-The computer needs the int at the beginning of the line to understand that the value
+The computer needs the `int` at the beginning of the line to understand that the value
 assigned to x in an integer. All variables are given data types in this way. You just put the data
 type before the name of the variable. 
 
 To start, we are going to deal with 4 different data types:
 
-* Strings
-* Integers
-* Doubles
-* Booleans
+* `Strings`
+* `Integers`
+* `Doubles`
+* `Booleans`
 
 
 ### Strings
