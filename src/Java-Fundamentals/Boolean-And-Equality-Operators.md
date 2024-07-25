@@ -9,8 +9,8 @@ There are 3 main boolean operators in Java (AND, OR, NOT). These operators are u
 ### The OR Operator ( || )
 
 Given 2 booleans, the `||` operator can be used to see if **either** of the 2 given booleans are true. This is illustrated in the table below:
-|  Input 1  |  Input 2  | Output |
-| --- | --- | --- |
+|  Input 1  |  Input 2  | Output
+| --- | --- | ---
 | True | False | True
 | False | True | True
 | False | False | False
