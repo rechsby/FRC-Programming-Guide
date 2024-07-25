@@ -4,8 +4,8 @@ any time. You can store text, numbers or even true or false in a variable. For e
 ```java
 int x = 2;
 ```
-This stores the number 2 in a variable called x. The int at the beginning just tells the
-computer that the value you are assigning to the variable x is an integer (whole-number). The semicolon at the end is needed as creating a variable is a [statement](##Statements).
+This stores the number 2 in a variable called x. The `int` at the beginning just tells the
+computer that the value you are assigning to the variable x is an integer (whole-number). The semicolon at the end is needed as creating (also known as *instantiating*) a variable is a statement.
 
 
 ## Data Types

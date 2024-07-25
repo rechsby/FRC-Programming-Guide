@@ -40,3 +40,5 @@ There are 2 types of comments:
         it starts with a /* and ends
         with */ 
   ```
+
+Comments will be used throughout to specify further context.
