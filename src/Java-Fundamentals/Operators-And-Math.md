@@ -1,4 +1,4 @@
-# Operators
+# Operators & Arithmetic
 Operators represent basic mathematical operations. Addition, subtraction, division, multiplication, and one other we'll get to later. Java follows PEMDAS (Parentheses, Exponents, Multiplication & Division, Addition & Subtraction).
 
 Consider the following example:
@@ -11,6 +11,17 @@ double xy = x * y; // 12.6
 double b = y / z; // -1.4
 ```
 
+### Operator Shorthand
+Java also supports shorthand for altering a value itself
+```java
+int x = 3
+x = x * 2
+```
+```java
+int x = 3
+x *= 2
+```
+Both of these snippets multiply x by 2. *= multiplies a variable by the number next to the equal sign, same for `/=`, `+=`, and `-=`, for division, addition, and subtraction respectively.
 
 ## Accidental Casting
 It's important to be mindful of what data types you're working with when using the division operator. Consider the following:

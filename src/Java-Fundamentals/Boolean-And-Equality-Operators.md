@@ -85,7 +85,7 @@ check if two variables are equivalent, not equivalent, or if one is greater than
 
 Keep in mind that x and y don't have to be variables, they could be integers, doubles, strings, etc.
 
-> It's good practice to use parenthesis to seperate the arithmetic from an equaliter operator, such as in the example below
+> It's good practice to use parenthesis to seperate the arithmetic from an equality operator, such as in the example below.
 
 ### Code Examples
 

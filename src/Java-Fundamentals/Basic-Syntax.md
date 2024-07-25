@@ -1,3 +1,7 @@
+
+> PENDING REWRITE, IGNORE THIS IT'S NOT GOOD.
+
+
 # Basic Java Syntax
 Welcome! Work your way through this documentation chronologically and skip over any parts you already feel comfortable with. More resources explaining specific topics in depth can be found at the bottom of the page.
 

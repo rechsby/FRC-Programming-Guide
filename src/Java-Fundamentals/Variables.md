@@ -1,6 +1,6 @@
-# What Is A Variable?
+# Variables
 A *variable* stores some kind of information. The information stored can be retrieved at
-any time. You can store text, numbers or even true or false in a variable. For example:
+any time. You can store text, numbers or even a true or false in a variable. For example:
 ```java
 int x = 2;
 ```
@@ -18,7 +18,7 @@ The computer needs the `int` at the beginning of the line to understand that the
 assigned to x in an integer. All variables are given data types in this way. You just put the data
 type before the name of the variable. 
 
-To start, we are going to deal with 4 different data types:
+Java includes many different data types, but for now we'll cover the 4 major ones:
 
 * `Strings`
 * `Integers`
@@ -27,7 +27,7 @@ To start, we are going to deal with 4 different data types:
 
 
 ### Strings
-Strings are used to store text. You can use a string to store your name, job, favorite color, etc. When you define a string, you need to make sure to put quotation marks around it. Notice how ```String``` is capitalized, while the other data types are not.
+Strings are used to store text. You can use a string to store your name, job, favorite color, etc. When you define a string, you need to make sure to put quotation marks around it. Notice how `String` is capitalized, while the other data types are not.
 ```java
 String myName = "Bob Ross";
 ```
