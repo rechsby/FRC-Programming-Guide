@@ -1,0 +1,10 @@
+1. Java Fundamentals
+    Basic Syntax
+    Variables
+    Math operators
+    Boolean expressions / Conditionals
+    Arrays
+    Looping
+    Methods
+    Best Practices
+    tips & tricks

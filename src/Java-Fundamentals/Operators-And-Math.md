@@ -12,7 +12,7 @@ double b = y / z; // -1.4
 ```
 
 
-## Accidental Data Casting
+## Accidental Casting
 It's important to be mindful of what data types you're working with when using the division operator. Consider the following:
 ```java
 int x = 3
