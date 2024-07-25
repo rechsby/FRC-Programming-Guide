@@ -35,4 +35,3 @@ There are 2 types of comments:
         it starts with a /* and ends
         with */ 
     ```
-ffff
