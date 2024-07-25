@@ -9,7 +9,7 @@
   <!-- - [1.4: Conditionals]
   - [1.5: Arrays]
   - [1.6: Loops]
-  - [1.7: Methods]
+  - [1.7: Methods/Functions]
   - [1.8: More Data Types]
   - [1.9: Programming Conventions] -->
   
