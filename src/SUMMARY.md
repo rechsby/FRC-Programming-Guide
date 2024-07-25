@@ -6,10 +6,10 @@
   - [1.1: Basic Syntax](./Java-Fundamentals/Basic-Syntax.md)
   - [1.2: Variables](./Java-Fundamentals/Variables.md)
   - [1.3: Mathematical Operators](./Java-Fundamentals/Operators-And-Math.md)
-  - [1.4: Conditionals]
+  <!-- - [1.4: Conditionals]
   - [1.5: Arrays]
   - [1.6: Loops]
   - [1.7: Methods]
   - [1.8: More Data Types]
-  - [1.9: Programming Conventions]
+  - [1.9: Programming Conventions] -->
   
