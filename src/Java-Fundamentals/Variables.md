@@ -53,6 +53,6 @@ bool isHungry = true
 ```
 
 ## More Resources
-[W3Schools](https://www.w3schools.com/java/java_data_types.asp)
-[Tutorialspoint](https://www.tutorialspoint.com/java/java_variable_types.htm)
+[W3Schools](https://www.w3schools.com/java/java_data_types.asp)\
+[Tutorialspoint](https://www.tutorialspoint.com/java/java_variable_types.htm)\
 [Programiz](https://www.programiz.com/java-programming/variables-literals)
