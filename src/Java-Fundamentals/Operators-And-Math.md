@@ -23,7 +23,7 @@ x *= 2
 ```
 Both of these snippets multiply x by 2. *= multiplies a variable by the number next to the equal sign, same for `/=`, `+=`, and `-=`, for division, addition, and subtraction respectively.
 
-## Accidental Casting
+### Accidental Casting
 It's important to be mindful of what data types you're working with when using the division operator. Consider the following:
 ```java
 int x = 3
@@ -32,7 +32,7 @@ double z = y / x // 4/3 = 1.33~?
 ```
 While the expected value of `z` is 1.33~, this is not the case. `z` ends up having a value of 1. This is because since **both** `x` and `y` are of type `int`, it rounds to the nearest integer. To avoid this, make sure that at least one of the types you are dividing by is of type `double`
 
-## Modulo
+### Modulo
 >Given two positive numbers a and n, a modulo n (often abbreviated as a mod n) is the remainder of the division of a by n, where a is the dividend and n is the divisor.
 
 The Modulo operator is used to get the remainder of any given division. It's helpful to think of it as doing integer division, then returning the remainder. It is represented by the % sign. 
@@ -45,5 +45,5 @@ The Modulo operator is used to get the remainder of any given division. It's hel
 23 % 6
 ```
 
-## More Resources
+### More Resources
 [CodeDamn](https://codedamn.com/news/java/what-is-modulo-modulus-remainder-operator-in-java)

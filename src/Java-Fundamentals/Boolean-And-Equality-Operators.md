@@ -63,16 +63,15 @@ boolean y = !x // Not True: False
 Equality operators are used to create conditions. You can
 check if two variables are equivalent, not equivalent, or if one is greater than the other.
 
-#### These operators are often used on Booleans, Integers, and Doubles
+**These operators are often used on Booleans, Integers, and Doubles**
 * `x != y`
   * If `x` does not equal `y`: will evaluate to `true`
 * `x == y`
   * if `x` equals `y`: will evaluate to `true`
 
 
----
 
-#### These operators are often used on Integers and Doubles.
+**These operators are often used on Integers and Doubles.**
 * `x > y`
   * if `x` is greater than `y`: will evaluate to `true`
 * `x < y`
