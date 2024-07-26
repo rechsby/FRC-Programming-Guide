@@ -78,6 +78,7 @@ The Modulo operator is used to get the remainder of any given division. It's hel
    double result = hello + world 
    ```
    <details> <code>hello</code> has a value of "hello" and <code>world</code> has a value of ", world!". We add the 2 strings together and save it to <code>result</code>, So <code>result</code><b> has a value of of "hello, world!"</b>
+---
 3. What is the value stored in the `result` variable?
    ```java
    double x = 9
