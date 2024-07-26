@@ -9,12 +9,15 @@ There are 3 main boolean operators in Java (AND, OR, NOT). These operators are u
 ### The OR Operator ( || )
 
 Given 2 booleans, the `||` operator can be used to see if **either** of the 2 given booleans are true. This is illustrated in the table below:
-|  Input 1  |  Input 2  | Output
-| --- | --- | ---
-| True | False | True
-| False | True | True
-| False | False | False
-| True | True | True
+
+| Input 1 | Input 2 | Output |
+|---------|---------|---------|
+| True     | False     | True
+| False     | True     | True
+| False     | False     | False
+| True     | True     | True
+
+
 
 
 ```java
@@ -84,9 +87,9 @@ check if two variables are equivalent, not equivalent, or if one is greater than
 
 Keep in mind that x and y don't have to be variables, they could be integers, doubles, strings, etc.
 
-> It's good practice to use parenthesis to seperate the arithmetic from an equality operator, such as in the example below.
 
-### Code Examples
+
+Let's look at a few examples of equality operators in action:
 
 ```java
 int x = 3
@@ -101,3 +104,4 @@ boolean y = false
 boolean result = (x == y) // true, false == false
 ```
 
+> It's good practice to use parenthesis to seperate the arithmetic from an equality operator, such as in the example above.
