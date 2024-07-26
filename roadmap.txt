@@ -8,3 +8,6 @@
     Methods
     Best Practices
     tips & tricks
+2. Object-Oriented Programmer
+3. Git
+4. WPILIB & extras

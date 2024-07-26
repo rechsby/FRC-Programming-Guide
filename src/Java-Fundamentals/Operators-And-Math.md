@@ -12,7 +12,7 @@ double b = y / z; // -1.4
 ```
 
 ### Operator Shorthand
-Java also supports shorthand for altering a value itself
+Java also supports a shorthand for altering a variable quicker:
 ```java
 int x = 3
 x = x * 2
@@ -21,8 +21,17 @@ x = x * 2
 int x = 3
 x *= 2
 ```
-Both of these snippets multiply x by 2. *= multiplies a variable by the number next to the equal sign, same for `/=`, `+=`, and `-=`, for division, addition, and subtraction respectively.
+**Both** of these snippets multiply x by 2. `*=` multiplies a variable by the number next to the equal sign, same for `/=`, `+=`, and `-=`, for division, addition, and subtraction respectively.
 
+
+### Applications To Strings
+Some of these operators can also be used when working with strings, for example when you need to add strings together:
+
+```java
+double string1 = "The quick brown fox "
+double string2 = "jump over the lazy dog!"
+double result = string1 + string2 // The quick brown fox jumps over the lazy dog
+```
 ### Accidental Casting
 It's important to be mindful of what data types you're working with when using the division operator. Consider the following:
 ```java
@@ -44,6 +53,22 @@ The Modulo operator is used to get the remainder of any given division. It's hel
 // Try this one yourself!
 23 % 6
 ```
+## Practice
+1. What is the number stored in the `result` variable
+   ```java
+   double x = 25
+   double y = 5
+   double result = x / y
+   ```
+   <details> <code>x</code> has a value of 25, and <code>y</code> has a value of 5. then on the third line we divide <code>x</code> <i>by</i> <code>y</code>. 25 / 5 = 5, so <code>result</code> has <b>a value of 5</b>
 
+--- 
+2. What is the result of the following expression?
+   ```java
+   double hello = "hello"
+   double world = ", world!"
+   double result = hello + world 
+   ```
+3. Save 2 integers to seperate 
 ### More Resources
 [CodeDamn](https://codedamn.com/news/java/what-is-modulo-modulus-remainder-operator-in-java)
