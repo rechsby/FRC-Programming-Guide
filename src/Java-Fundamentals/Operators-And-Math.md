@@ -1,5 +1,5 @@
 # Operators & Arithmetic
-Operators represent basic mathematical operations. Addition, subtraction, division, multiplication, and one other we'll get to later. Java follows PEMDAS (Parentheses, Exponents, Multiplication & Division, Addition & Subtraction).
+Operators represent basic mathematical operations. Addition, subtraction, division, multiplication, and one other we'll get to later. It's important to remember that Java follows PEMDAS (Parentheses, Exponents, Multiplication & Division, Addition & Subtraction).
 
 Consider the following example:
 ```java
@@ -39,12 +39,20 @@ int x = 3
 int y = 4
 double z = y / x // 4/3 = 1.33~?
 ```
-While the expected value of `z` is 1.33~, this is not the case. `z` ends up having a value of 1. This is because since **both** `x` and `y` are of type `int`, it rounds to the nearest integer. To avoid this, make sure that at least one of the types you are dividing by is of type `double`
+
+While the expected value of `z` is 1.33~, this is not the case. `z` ends up having a value of 1. 
+\
+\
+Why do you think this is?
+
+<details>
+While the expected value of <code>z</code> is 1.33~, this is not the case. <code>z</code> ends up having a value of 1. This is because since <b>both</b> <code>x</code> and <code>y</code> are of type <code>int</code>, it rounds to the nearest integer. To avoid this, <b>make sure that at least one of the types you are dividing by is of type</b> <code>z</code>
+</details>
 
 ### Modulo
 >Given two positive numbers a and n, a modulo n (often abbreviated as a mod n) is the remainder of the division of a by n, where a is the dividend and n is the divisor.
 
-The Modulo operator is used to get the remainder of any given division. It's helpful to think of it as doing integer division, then returning the remainder. It is represented by the % sign. 
+The Modulo operator is used to get the remainder of any given division. It's helpful to think of it as doing integer division, then returning the remainder. It is represented by the `%` sign. 
 ```java
 5 % 3 // 2
 9 % 2 // 1
@@ -54,21 +62,28 @@ The Modulo operator is used to get the remainder of any given division. It's hel
 23 % 6
 ```
 ## Practice
-1. What is the number stored in the `result` variable
+1. What is the number stored in the `result` variable?
    ```java
    double x = 25
    double y = 5
-   double result = x / y
+   double result = (x / y) + 1
    ```
-   <details> <code>x</code> has a value of 25, and <code>y</code> has a value of 5. then on the third line we divide <code>x</code> <i>by</i> <code>y</code>. 25 / 5 = 5, so <code>result</code> has <b>a value of 5</b>
+   <details> <code>x</code> has a value of 25, and <code>y</code> has a value of 5. then on the third line we divide <code>x</code> <i>by</i> <code>y</code>. 25 / 5 = 5, so <code>result</code> has <b>a value of 6</b>
 
 --- 
-2. What is the result of the following expression?
+2. What is the value stored in the `result` variable?
    ```java
    double hello = "hello"
    double world = ", world!"
    double result = hello + world 
    ```
-3. Save 2 integers to seperate 
+   <details> <code>hello</code> has a value of "hello" and <code>world</code> has a value of ", world!". We add the 2 strings together and save it to <code>result</code>, So <code>result</code><b> has a value of of "hello, world!"</b>
+3. What is the value stored in the `result` variable?
+   ```java
+   double x = 9
+   double z = 3
+   double result = x % z
+   ```
+   <details> Since 3 divides into 9 with no remainer, <code>result</code> <b>has a value of 0</b>
 ### More Resources
 [CodeDamn](https://codedamn.com/news/java/what-is-modulo-modulus-remainder-operator-in-java)
