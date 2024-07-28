@@ -1,0 +1,15 @@
+           - name: Delete Deployment Environment
+  # You may pin to the exact commit or the version.
+  # uses: strumwolf/delete-deployment-environment@a4825dd9648c57da8437a4885c3fcad58beac69c
+  uses: strumwolf/delete-deployment-environment@v3.0.0
+  with:
+    # GitHub access token
+    token: 
+    # Environment to be deleted
+    environment: 
+    # The `head_ref` or source branch name of the deployment to delete
+    ref: # optional
+    # Only remove deployments, keep the environment. Defaults to false
+    onlyRemoveDeployments: true # optional
+    # Only inactive deployments, keep the environment and deployments. Defaults to false
+    onlyDeactivateDeployments: # optional
