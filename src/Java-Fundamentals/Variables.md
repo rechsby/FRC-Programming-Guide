@@ -29,7 +29,7 @@ Java includes many different data types, but for now we'll cover the 4 major one
 
 
 ### Strings
-Strings are used to store text. You can use a string to store your name, job, favorite color, etc. When you define a string, you need to make sure to put quotation marks around it. Notice how `String` is capitalized, while the other 3 major data types are not.
+Strings are used to store text. You can use a string to store your name, job, favorite color, etc. When you define a string, you need to make sure to put quotation marks around it. Notice how `String` is capitalized, while the other 3 major data types are not*.
 ```java
 String myName = "Bob Ross";
 ```
