@@ -27,4 +27,20 @@ In Java, every application begins with a class definition. In the above program,
 
 ## Comments
 
-In Java, any line starting with `//` is a comment. Comments are intended for users reading the code to understand the intent & functionality of the program. It is completely ignored by the Java compiler.
+Comments are intended for users reading the code to understand its purpose & functionality. They are completely ignored by the Java compiler.
+
+
+There are 2 ways to create comments in Java:
+1. Using `//` for single-line comments
+    * ```java
+      // Hello! This is a single-line comment and is great for short explanantions of code.
+      ```
+2. Using `/* ... */` for multi-line comments
+    * ```java
+      /* Hi! This is a comment that spans across
+        multiple lines
+        great for giving deeper explanations on why or how our code works.
+      ```
+
+
+
