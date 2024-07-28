@@ -56,9 +56,27 @@ boolean isHungry = true
 
 ## Practice 
 1. What data type is used to store whole numbers? What about decimal numbers?
-2. Create a boolean with the name `isHappy` with the value `true`.
-3. Create a variable that stores your age.
+   <details>
 
+   `integer` **is used to store whole numbers, while** `double` **is used to store decimal numbers.**
+   </details>
+---
+2. Create a boolean with the name `isHappy` with the value `true`.
+   <details>
+
+    ```java
+    boolean isHappy = true;
+    ```
+
+   </details>
+---
+3. Create a variable that stores your age.
+   <details>
+
+    ```java
+    double age = 15;
+    ```
+    </details>
 
 
 ## More Resources

@@ -40,10 +40,10 @@ int y = 4
 double z = y / x // 4/3 = 1.33~?
 ```
 
-While the expected value of `z` is 1.33~, this is not the case. `z` ends up having a value of 1. 
-\
-\
-Why do you think this is?
+While the expected value of `z` is 1.33~, this is not the case. `z` actually ends up having a value of 1. 
+
+
+*Why do you think this is?*
 
 <details>
 While the expected value of <code>z</code> is 1.33~, this is not the case. <code>z</code> ends up having a value of 1. This is because since <b>both</b> <code>x</code> and <code>y</code> are of type <code>int</code>, it rounds to the nearest integer. To avoid this, <b>make sure that at least one of the types you are dividing by is of type</b> <code>z</code>
@@ -58,8 +58,7 @@ The Modulo operator is used to get the remainder of any given division. It's hel
 9 % 2 // 1
 3 % 3 // 0
 25 % 5 // 0
-// Try this one yourself!
-23 % 6
+
 ```
 ## Practice
 1. What is the number stored in the `result` variable?
@@ -68,7 +67,7 @@ The Modulo operator is used to get the remainder of any given division. It's hel
    double y = 5
    double result = (x / y) + 1
    ```
-   <details> <code>x</code> has a value of 25, and <code>y</code> has a value of 5. then on the third line we divide <code>x</code> <i>by</i> <code>y</code>. 25 / 5 = 5, so <code>result</code> has <b>a value of 6</b>
+   <details> <code>x</code> has a value of 25, and <code>y</code> has a value of 5. then on the third line we divide <code>x</code> <i>by</i> <code>y</code>. 25 / 5 = 5, so <code>result</code> has <b>a value of 6.</b>
 
 --- 
 2. What is the value stored in the `result` variable?
@@ -85,6 +84,6 @@ The Modulo operator is used to get the remainder of any given division. It's hel
    double z = 3
    double result = x % z
    ```
-   <details> Since 3 divides into 9 with no remainer, <code>result</code> <b>has a value of 0</b>
+   <details> Since 3 divides into 9 with no remainer, <code>result</code> <b>has a value of 0.</b>
 ### More Resources
 [CodeDamn](https://codedamn.com/news/java/what-is-modulo-modulus-remainder-operator-in-java)
