@@ -22,35 +22,38 @@ Another common loop is the for loop. The for is useful when you need to loop thr
 Here is how you would do it:
 
 ```java
-int number = 0;
+int number = 3;
 
-for (int i = 0; i < 10; i++) {
+for (int i = 0; i < 10; i++) { // <- Important line!
     number = number + i;
 
     // Once again, the last line of the loop body is the one right before the }
 }
-```
-Lets break this down. The for loop can be broken up into 4 parts. The first part is 
-```java
-int i = 0;
-```
-This is run before the first iteration of the loop and sets the variable that the rest of the loop uses.
-The traditional names for these variables i and j. Though the naming is not super important so long as it is readable.
 
-The next part is.
-```java
-i < 10;
+
+
+
 ```
-If this condition is true, the loop runs again, otherwise the program moves on. This part is similar to the while loop's condition.
 
-```java
-i++;
-```
-This snippet is run at the end of each loop iteration. In most cases it just adds 1 to i.
+The line containing the `for` statement itself contains several statements, lets break them down:
+1. ```java
+    int i = 0;
+    ```
+    * This is run before the first iteration of the loop and sets the variable that the rest of the loop uses. This variable is usually named after a single letter such as `i` or `j`. 
+2. ```java
+    i < 10;
+    ```
+    * This is a condition utilizing [equality operators](./Boolean-And-Equality-Operators.md#equality-operators). If this condition is true, the loop runs again, otherwise the program moves on. This is identical to the while loop's condition that we saw above.
+3. ```java
+    i++;
+    ```
+    * This part is run at the end of each iteration of the for loop, and in this specific example is utilizing [math shorthand](./Operators-And-Math.md#operator-shorthand) to increment `i` by 1
 
-Finally you have the actual code which is run each iteration. You will notice we reference the variable i in the code.
+--- 
+Finally you have the actual code which is run each iteration. Notice we reference the [variable](./Variables.md#variables) `i` in the code.
 
-One detail worth noting is that the for loop cannot do anything the while loop can't. It is just a clearer and more convinient way to do many tasks. Here is what the above for loop example would look like as a while loop:
+
+One detail worth noting is that the for loop and while loop can both acomplish the same tasks. It is just a clearer and more convenient way to do many tasks. Here is what the above for loop example would look like as a while loop:
 ```java
 int number = 0;
 int i = 0;
@@ -61,6 +64,9 @@ while (i < 10) { // the condition that is evaluated
     // Last line of the loop body is the one right before the }
 }
 ```
+
+---
+
 
 References:
 
