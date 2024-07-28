@@ -45,9 +45,9 @@ double[] x = new double[] {-1.32, 5.65, 3};
 We can change the values by doing almost the reverse of how we retrieved a value from an array
 ```java
 double[] x = new double[] {-1.32, 5.65, 3};
-x[0] = 3.14
-x[1] = 1.59
-x[2] = 2.65
+x[0] = 3.14;
+x[1] = 1.59;
+x[2] = 2.65;
 ```
 
 ## Retrieving The Length Of An Array
@@ -58,7 +58,7 @@ Consider the following example:
 ```java
 String[] message = new String[] {"hi,", "welcome", "to", "555!"};
 
-int x = message.length // 4
+int x = message.length; // 4
 ```
 
 

@@ -56,7 +56,6 @@ int number = 0;
 int i = 0;
 while (i < 10) { // the condition that is evaluated
     number = number + 1;
-    //number++; would also work.
 
     i++; //or i = i + 1;
     // Last line of the loop body is the one right before the }
@@ -64,7 +63,7 @@ while (i < 10) { // the condition that is evaluated
 ```
 
 References:
-https://www.w3schools.com/java/java_while_loop.asp
-https://www.w3schools.com/java/java_for_loop.asp
 
-As seen in the above example, 
+[W3Schools While Loop](https://www.w3schools.com/java/java_while_loop.asp) \
+[W3schools For Loop](https://www.w3schools.com/java/java_for_loop.asp)
+

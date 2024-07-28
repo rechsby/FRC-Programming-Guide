@@ -25,3 +25,6 @@ Let's go through this line by line:
 In Java, every application begins with a class definition. In the above program, `HelloWorld` is the name of the class, and is defined on the first line. We’ll talk about classes more in the future, but for now think of them as a container for different parts of our code.
 
 
+## Comments
+
+In Java, any line starting with `//` is a comment. Comments are intended for users reading the code to understand the intent & functionality of the program. It is completely ignored by the Java compiler.
