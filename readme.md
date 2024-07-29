@@ -9,12 +9,11 @@ Roadmap:
    4. **Boolean & Equality Operators**
    5. **Arrays**
    6. **Loops**
-   7. Methods
+   7. Functions
    8. Best Practices
-   9.  Tips & Tricks
+   9. Tips & Tricks
 2. Object Oriented Programming (Not Yet Finalized)
    1. Classes
-      1. Enums
    2. Objects
    3. Packages
 3. Git & Github

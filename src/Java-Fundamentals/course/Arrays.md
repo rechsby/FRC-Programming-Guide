@@ -24,7 +24,7 @@ int d = x[3]; // 8
 int e = x[4]; // 10
 ```
 
-The indices of an array start at 0 and increment from left to right. Here is a model of the index-value pairs inside the array.
+The indices of an array **start at 0** and increment from left to right. Here is a model of the index-value pairs inside the array.
 
 | Index| Value |
 | ---  | ---   |
