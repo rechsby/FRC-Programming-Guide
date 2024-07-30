@@ -3,7 +3,7 @@
 Key:
 * ❌: Not started.
 * 🚧: Developing.
-* ✔️: Done but missing QOL features, practice problems, resources, etc. 
+* ✔️: Done but missing QOL improvements, practice problems, resources, etc. 
 * 🎉: Complete, may have minor spelling issues but is finished content-wise.
   
 --- 
@@ -16,13 +16,13 @@ Roadmap:
    5. Arrays [✔️]
    6. Loops [✔️]
    7. Functions [🚧]
-   8. Best Practices 
-   9. Explanation Of Scope
-2. Object Oriented Programming 
+   8. Best Practices [❌]
+   9. Scope [❌]
+2. Object Oriented Programming [🚧]
    1. Classes [🚧]
    2. Objects [❌]
    3. Packages [❌]
-3. Git & Github
+3. Git & Github [❌]
    1. Installing Git [❌]
    2. Basic Git & Github [❌]
    3. How To Contribute Effectively [❌]
