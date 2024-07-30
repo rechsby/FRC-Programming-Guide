@@ -25,18 +25,6 @@ This is known as the **function declaration** and it tells the compiler the name
 * `(int a, int b)`
   * This part of the line is very important, and where a lot of beginners get confused.
 
-
-
-
-
-
-
-
-
-
-
-
-
 > If the beginning of a function declaration has to be a data type, then how can we have a function that returns nothing? Good question. If we want to specify that the function returns *no* data, then we use the keyword `void` *instead* of a data type such as `int` or `boolean`
 
 
