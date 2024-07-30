@@ -12,7 +12,6 @@ System.out.println(addTheseNumbers(1, 8));
 
 ```
 
-
 There's a lot of information to dissect in the above example but for now let's look at the first line:
 
 * `int addTheseNumbers(int a, int b) { [...] }`
@@ -25,6 +24,16 @@ This is known as the **function declaration** and it tells the compiler the name
   * This is the name of the function, which we'll use to refer to it in our code.
 * `(int a, int b)`
   * This part of the line is very important, and where a lot of beginners get confused.
+
+
+
+
+
+
+
+
+
+
 
 
 
