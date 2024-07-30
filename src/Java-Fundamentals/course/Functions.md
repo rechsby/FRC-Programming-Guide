@@ -9,6 +9,7 @@ int addTheseNumbers(int a, int b) {
 }
 
 System.out.println(addTheseNumbers(1, 8));
+
 ```
 
 
@@ -23,7 +24,11 @@ This is known as the **function declaration** and it tells the compiler the name
 * `addTheseNumbers`
   * This is the name of the function, which we'll use to refer to it in our code.
 * `(int a, int b)`
+  * This part of the line is very important, and where a lot of beginners get confused.
 
+
+
+> If the beginning of a function declaration has to be a data type, then how can we have a function that returns nothing? Good question. If we want to specify that the function returns *no* data, then we use the keyword `void` *instead* of a data type such as `int` or `boolean`
 
 
 First, the `int` part of the line specifies what [datatype](./Variables.md#data-types) (if any) the function will return, in this case, an integer. The next part of the line specifies the name of the function which in this case is `addTheseNumbers`.
