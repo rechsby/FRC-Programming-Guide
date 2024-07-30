@@ -7,4 +7,8 @@
   - [Boolean & Equality Operators](./Java-Fundamentals/course/Boolean-And-Equality-Operators.md)
   - [Arrays](./Java-Fundamentals/course/Arrays.md)
   - [Loops](./Java-Fundamentals/course/Loops.md)
+  - [Functions](./Java-Fundamentals/course/Functions.md)
 - [Object-Oriented Programming (OOP)](./Object-Oriented-Programming/Intro.md)
+  - [Classes](./Object-Oriented-Programming/course/Classes.md)
+  - [Objects](./Object-Oriented-Programming/course/Objects.md)
+  - [Packages](./Object-Oriented-Programming/course/Packages.md)

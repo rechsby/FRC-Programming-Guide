@@ -61,7 +61,7 @@ boolean isHungry = true
    `integer` **is used to store whole numbers, while** `double` **is used to store decimal numbers.**
    </details>
 ---
-2. Create a boolean with the name `isHappy` with the value `true`.
+2. Create a boolean with the name `isHappy` with the value `false`.
    <details>
 
     ```java
@@ -74,7 +74,7 @@ boolean isHungry = true
    <details>
 
     ```java
-    double age = 15;
+    int age = 15;
     ```
     </details>
 
