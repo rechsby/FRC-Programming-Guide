@@ -3,7 +3,7 @@
 Code's job is to write code that communicates with several different components that the electronics division wires together. While it's not necesarry to know the inner workings of each part, knowing what each part does and how its connected will make it wasy easier to work with those components. 
 
 
-![Control System Map](../../../assets/frc-control-system-layout-rev.png)
+![Control System Map](../../assets/frc-control-system-layout-rev.png)
 
 The above diagram shows several common parts on FRC robots. While we don't use all of them, there are several you should be familiar with:
 - [Voltage Regular Module (VRM)](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html#ctre-voltage-regulator-module)
