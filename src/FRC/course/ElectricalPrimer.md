@@ -1,6 +1,6 @@
 # Electronics
 
-Code's job is to write code that communicates with several different components that the electronics division wires together. While it's not necesarry to know the inner workings of each part, knowing what each part does and how its connected will make it wasy easier to work with those components.
+Code's job is to write code that communicates with several different components that the electronics division wires together. While it's not required to know the inner workings of each part, knowing what each part does and how its connected will make it wasy easier to work with those components.
 
 ![Control System Map](../../assets/frc-control-system-layout-rev.png)
 
@@ -26,8 +26,11 @@ The above diagram shows several common parts on FRC robots. While we don't use a
 - [120A Breaker](https://docs.wpilib.org/en/stable/docs/controls-overviews/control-system-hardware.html#ctre-voltage-regulator-module)
   - This breaker is the on/off switch for the robot. It is usually near the edge of the robot so it's easier to enable and disable.
 
-## CAN Wiring
+## CAN 
 
 CAN (Control Area Network) is a protocol used to send data between different devices on the robot. It is a daisy-chained system, which means that its technically just two long wires going from one device to the next.
 
-Due to CAN's nature of each connection relying on the previous one, any one *break* in the chain can cause undesired behavior.
+Due to CAN's nature of each connection relying on the previous one, *any break* in the chain can cause undesired behavior.
+
+Every Device on a CAN network has a unique **id**. This can be any number, but it is almost always under 40.
+
