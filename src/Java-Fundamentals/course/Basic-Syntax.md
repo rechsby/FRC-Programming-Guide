@@ -43,4 +43,5 @@ There are 2 ways to create comments in Java:
        multiple lines
        great for giving deeper explanations on why or how our code works.
      ```
+
 Code snippets throughout this guide may use comments to provide further context or explain what's going on.
