@@ -45,11 +45,11 @@ The line containing the `for` statement itself contains several statements, lets
     int i = 0;
    ```
    - This is run before the first iteration of the loop and sets the variable that the rest of the loop uses. This variable is usually named after a single letter such as `i` or `j`.
-1. ```java
+2. ```java
     i < 10;
    ```
    - This is a condition utilizing [equality operators](./Boolean-And-Equality-Operators.md#equality-operators). If this condition is true, the loop runs again, otherwise the program moves on. This is identical to the while loop's condition that we saw above.
-1. ```java
+3. ```java
     i++;
    ```
    - This part is run at the end of each iteration of the for loop, and in this specific example is utilizing [math shorthand](./Operators-And-Math.md#operator-shorthand) to increment `i` by 1

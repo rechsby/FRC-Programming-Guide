@@ -14,11 +14,11 @@ public class HelloWorld {
 
 Let's go through this line by line:
 
-1. `public class HelloWorld { ... }`
+1. `public class HelloWorld { [...] }`
    - In Java, every file contains one main class that has the same name as the file its in. We’ll talk about [classes](../../Object-Oriented-Programming/course/Classes.md) more in the future, but for now think of them as a container for parts of our code. Code between the opening and closing curly parenthesis is considered "part" of that class.
-1. `public static void main(String[] args) { ... }`
+2. `public static void main(String[] args) { [...] }`
    - This is the *main method* Every application in Java contains the main method. When we run our program, the java compiler starts running our code from here.
-1. `System.out.println("hello World");`
+3. `System.out.println("hello World");`
    - This is known as a **print statement**. It prints the text "Hello, World!" to standard output (your screen). The text inside the quotation marks is called a [String](./Variables.md#) in Java.
 
 ______________________________________________________________________
@@ -37,9 +37,10 @@ There are 2 ways to create comments in Java:
    - ```java
      // Hello! This is a single-line comment and is great for short explanantions of code.
      ```
-1. Using `/* ... */` for multi-line comments
+2. Using `/* ... */` for multi-line comments
    - ```java
      /* Hi! This is a comment that spans across
        multiple lines
        great for giving deeper explanations on why or how our code works.
      ```
+Code snippets throughout this guide may use comments to provide further context or explain what's going on.

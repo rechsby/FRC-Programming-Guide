@@ -18,13 +18,13 @@ double b = y / z; // -1.4
 Java also supports a shorthand for altering a variable quicker:
 
 ```java
-int x = 3
-x = x * 2
+int x = 3;
+x = x * 2;
 ```
 
 ```java
-int x = 3
-x *= 2
+int x = 3;
+x *= 2;
 ```
 
 **Both** of these snippets multiply x by 2. `*=` multiplies a variable by the number next to the equal sign, same for `/=`, `+=`, and `-=`, for division, addition, and subtraction respectively.
@@ -34,9 +34,9 @@ x *= 2
 Some of these operators can also be used when working with strings, for example when you need to add strings together:
 
 ```java
-double string1 = "The quick brown fox "
-double string2 = "jump over the lazy dog!"
-double result = string1 + string2 // The quick brown fox jumps over the lazy dog
+double string1 = "The quick brown fox ";
+double string2 = "jump over the lazy dog!";
+double result = string1 + string2; // The quick brown fox jumps over the lazy dog
 ```
 
 ### Accidental Casting
@@ -44,9 +44,9 @@ double result = string1 + string2 // The quick brown fox jumps over the lazy dog
 It's important to be mindful of what data types you're working with when using the division operator. Consider the following:
 
 ```java
-int x = 3
-int y = 4
-double z = y / x // 4/3 = 1.33~?
+int x = 3;
+int y = 4;
+double z = y / x; // 4/3 = 1.33~?
 ```
 
 While the expected value of `z` is 1.33~, this is not the case. `z` actually ends up having a value of 1.
@@ -75,9 +75,9 @@ The Modulo operator is used to get the remainder of any given division. It's hel
 
 1. What is the number stored in the `result` variable?
    ```java
-   double x = 25
-   double y = 5
-   double result = (x / y) + 1
+   double x = 25;
+   double y = 5;
+   double result = (x / y) + 1;
    ```
    <details> <code>x</code> has a value of 25, and <code>y</code> has a value of 5. then on the third line we divide <code>x</code> <i>by</i> <code>y</code>. 25 / 5 = 5, so <code>result</code> has <b>a value of 6.</b>
 
@@ -85,9 +85,9 @@ ______________________________________________________________________
 
 2. What is the value stored in the `result` variable?
    ```java
-   double hello = "hello"
-   double world = ", world!"
-   double result = hello + world 
+   double hello = "hello";
+   double world = ", world!";
+   double result = hello + world ;
    ```
    <details> <code>hello</code> has a value of "hello" and <code>world</code> has a value of ", world!". We add the 2 strings together and save it to <code>result</code>, So <code>result</code><b> has a value of of "hello, world!"</b>
 
@@ -95,9 +95,9 @@ ______________________________________________________________________
 
 3. What is the value stored in the `result` variable?
    ```java
-   double x = 9
-   double z = 3
-   double result = x % z
+   double x = 9;
+   double z = 3;
+   double result = x % z;
    ```
    <details> Since 3 divides into 9 with no remainer, <code>result</code> <b>has a value of 0.</b>
 
