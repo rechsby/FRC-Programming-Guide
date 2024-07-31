@@ -87,12 +87,30 @@ There are 3 main use cases for using the `return` keyword:
 
 ## Accepting Input
 
+### One Input
+
 Information can be passed to methods as a **parameter**. Parameters act as variables inside the method. Parameters are specified after the method name, *inside* the parentheses. You can add as many parameters/inputs as you want, but they have to be seperated by a comma
 
-The following example has a method that takes a String called name as a parameter. When the method is called, we pass along a first name, which is used inside the method to print the full name: 
+The following example has a method that takes a `String` called `name` as a parameter. When the method is called, we pass alongside a string, which is used inside the method in a print statement:
 ```java
 void printName(String name) { // Remember, void means no value is returned from the function.
 
   /* will print whatever string is passed into the function, regardless of if what we pass in is a variable, a call to another function, a normal string, etc. */
   System.out.println(name); 
+}
+
+printName("Baebraham"); // Will print "Baebraham" to the screen.
 ```
+
+### Multiple Inputs
+
+A function with multiple parameters is structured the same way as seen above, except the second parameter is followed by a comma. Consider the following function that adds 2 numbers named `a` and `b`
+
+```java
+int addNumbers(int a, int b) {
+  return a + b;
+}
+```
+This function has 2 inputs, `a` and `b`. Each input has a data type (`int`) followed by a name (`a`/`b`). The main difference here is that the 2 inputs are seperated by a comma, which tells the compiler that these are 2 seperate inputs.
+
+There is no limit to how many parameters a function can have, but they need to be seperated by commas such as in the example above.

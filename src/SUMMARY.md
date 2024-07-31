@@ -12,3 +12,7 @@
   - [Classes](./Object-Oriented-Programming/course/Classes.md)
   - [Objects](./Object-Oriented-Programming/course/Objects.md)
   - [Packages](./Object-Oriented-Programming/course/Packages.md)
+- [FRC](./FRC/Intro.md)
+  - [Installing WPILib](./FRC/course/InstallingWPILib.md)
+  - [Important Terminology](./FRC/course/Terminology.md)
+  - [An adventure Into Electronics](./FRC/course/ElectricalPrimer.md)
