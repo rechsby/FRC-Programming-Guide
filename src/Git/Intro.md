@@ -1,0 +1,3 @@
+# Git & GitHub
+
+Git is one of the most popular version control systems and it helps software developing teams manage changes to their source code over time. In other words, version control keeps track of every change in your code and it allows you to go back in time when something goes wrong. Also, it is really helpful to prevent concurrent work from conflicting when multiple people are working on the same project. 
