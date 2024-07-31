@@ -10,7 +10,7 @@
   - [Functions](./Java-Fundamentals/course/Functions.md)
 - [Object-Oriented Programming (OOP)](./Object-Oriented-Programming/Intro.md)
   - [Classes](./Object-Oriented-Programming/course/Classes.md)
-  - [Scope](./Object-Oriented-Programming/course/Scope.md/)
+  - [Scope](./Object-Oriented-Programming/course/Scope.md)
   - [Objects](./Object-Oriented-Programming/course/Objects.md)
   - [Packages](./Object-Oriented-Programming/course/Packages.md)
 - [Git & GitHub](./Git/Intro.md)
