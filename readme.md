@@ -34,11 +34,16 @@ Roadmap:
    1. Installing WPILib \[🚧\]
    2. Terminology \[❌\]
    3. An Electronics Primer \[🚧\]
-   4. Vision
+   4. Vision \[❌\]
 5. Advanced Java \[❌\] (Not In Order)
    1. Inheritance \[❌\]
    2. Advanced String Usage \[❌\]
    3. Arraylist \[❌\]
    4. Hashmap, Hashset \[❌\]
-   5. Lanbdas \[❌\]
-6.
+   5. Lambdas \[❌\]
+6. Appendix
+   1. Sources \[🎉\]
+   2. Special Thanks \[🎉\]
+   3. What next? \[❌\]
+   
+

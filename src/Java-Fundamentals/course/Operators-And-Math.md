@@ -15,19 +15,19 @@ double b = y / z; // -1.4
 
 ### Operator Shorthand
 
-Java also supports a shorthand for altering a variable quicker:
+Java also supports a shorthand for performing math on a variable quickly.
 
 ```java
 int x = 3;
-x = x * 2;
+x = x * 2; // x * 2 = 6
 ```
 
 ```java
 int x = 3;
-x *= 2;
+x *= 2; // x * 2 = 6
 ```
 
-**Both** of these snippets multiply x by 2. `*=` multiplies a variable by the number next to the equal sign, same for `/=`, `+=`, and `-=`, for division, addition, and subtraction respectively.
+**Both** of the above snippets multiply x by 2. `*=` multiplies a variable by the number next to the equal sign, same for `/=`, `+=`, and `-=`, for division, addition, and subtraction respectively.
 
 ### Applications To Strings
 
