@@ -1,5 +1,5 @@
 # Summary
-
+- [Starting Out](./Welcome.md)
 - [Java Fundamentals](./Java-Fundamentals/Intro.md)
   - [Basic Syntax](./Java-Fundamentals/course/Basic-Syntax.md)
   - [Variables](./Java-Fundamentals/course/Variables.md)

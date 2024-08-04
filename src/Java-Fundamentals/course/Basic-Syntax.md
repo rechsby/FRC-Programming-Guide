@@ -3,7 +3,7 @@
 A "Hello, World!" is a simple program that outputs Hello, World! on the screen. Since it's a very simple program, it's often used to introduce a programming language to new programmers.
 
 Let's explore how a Java "Hello, World!" program works:
-
+<script src="https://unpkg.com/@antonz/codapi@0.19.7/dist/snippet.js"></script>
 ```java
 public class HelloWorld { 
   public static void main(String[] args) { 
