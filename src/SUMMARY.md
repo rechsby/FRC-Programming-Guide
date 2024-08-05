@@ -20,6 +20,6 @@
   - [Installing WPILib](./FRC/course/InstallingWPILib.md)
   - [Important Terminology](./FRC/course/Terminology.md)
   - [An adventure Into Electronics](./FRC/course/ElectricalPrimer.md)
-- [Appendix]
+- [Appendix](./Appendix/Sources.md)
   - [Sources](./Appendix/Sources.md)
   - [A Special Thanks](./Appendix/Special-Thanks.md)
