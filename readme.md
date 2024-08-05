@@ -17,7 +17,7 @@ Roadmap:
    2. Variables \[🎉\]
    3. Mathematical Operators \[🎉\]
    4. Boolean & Equality Operators \[🎉\]
-   5. Control Flow \[❌\]
+   5. Control Flow \[🚧\]
    6. Arrays \[✔️\]
    7. Loops \[✔️\]
    8. Functions \[✔️\]
@@ -36,7 +36,7 @@ Roadmap:
    2. Terminology \[❌\]
    3. An Electronics Primer \[🚧\]
    4. Vision \[❌\]
-5. Advanced Java \[❌\] (Not In Order)
+5. Advanced Java \[❌\] 
    1. Inheritance \[❌\]
    2. Advanced String Usage \[❌\]
    3. Arraylist \[❌\]

@@ -1,6 +1,6 @@
 # Loops
 
-Loops are frequently used in programming. Loops are handy because they save time programming and make our code easier to read and debug.
+This page is a continuation to the explanation of control flow [here](./If-Else.md#java-branching-if-if-else) Loops are frequently used in programming. Loops are handy because they save time programming and make our code easier to read and debug.
 
 ## While Loops
 
