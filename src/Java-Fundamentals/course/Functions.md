@@ -91,6 +91,7 @@ There are 3 main use cases for using the `return` keyword:
 Information can be passed to methods as a **parameter**. Parameters act as variables inside the method. Parameters are specified after the method name, *inside* the parentheses. You can add as many parameters/inputs as you want, but they have to be seperated by a comma
 
 The following example has a method that takes a `String` called `name` as a parameter. When the method is called, we pass alongside a string, which is used inside the method in a print statement:
+> The variables that we pass *through* the function when we call it are known as **arguments**
 
 ```java
 void printName(String name) { // Remember, void means no value is returned from the function.
@@ -99,7 +100,7 @@ void printName(String name) { // Remember, void means no value is returned from 
   System.out.println(name); 
 }
 
-printName("Baebraham"); // Will print "Baebraham" to the screen.
+printName("Baebraham"); // Will call the function printName with the argument "Baebraham"
 ```
 
 ### Multiple Inputs
