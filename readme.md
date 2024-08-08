@@ -34,8 +34,10 @@ Roadmap:
 4. FRC Programming \[🚧\]
    1. Installing WPILib \[🚧\]
    2. Terminology \[❌\]
-   3. An Electronics Primer \[🚧\]
+   3. An Electronics Primer \[🎉\]
    4. Vision \[❌\]
+   5. PID \[🚧\]
+   6. Swerve \[❌\]
 5. Advanced Java \[❌\] 
    1. Inheritance \[❌\]
    2. Advanced String Usage \[❌\]
@@ -45,6 +47,6 @@ Roadmap:
 6. Appendix
    1. Sources \[🎉\]
    2. Special Thanks \[🎉\]
-   3. What next? \[❌\]
+   3. What Next? \[❌\]
    
 

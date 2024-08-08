@@ -3,9 +3,9 @@
 A "Hello, World!" is a simple program that outputs Hello, World! on the screen. Since it's a very simple program, it's often used to introduce a programming language to new programmers.
 
 Let's explore how a Java "Hello, World!" program works:
-<script src="https://unpkg.com/@antonz/codapi@0.19.7/dist/snippet.js"></script>
+
 ```java
-public class HelloWorld { 
+public class Main { 
   public static void main(String[] args) { 
     System.out.println("Hello World!"); 
   }
@@ -14,7 +14,7 @@ public class HelloWorld {
 
 Let's go through this line by line:
 
-1. `public class HelloWorld { [...] }`
+1. `public class Main { [...] }`
    - In Java, every file contains one main class that has the same name as the file its in. We’ll talk about [classes](../../Object-Oriented-Programming/course/Classes.md) more in the future, but for now think of them as a container for parts of our code. Code between the opening and closing curly parenthesis is considered "part" of that class.
 2. `public static void main(String[] args) { [...] }`
    - This is the *main method* Every application in Java contains a main method. When we run our program, the java compiler starts running our code from here.
