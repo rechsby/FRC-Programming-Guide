@@ -116,3 +116,31 @@ int addNumbers(int a, int b) {
 This function has 2 inputs, `a` and `b`. Each input has a data type (`int`) followed by a name (`a`/`b`). The main difference here is that the 2 inputs are seperated by a comma, which tells the compiler that these are 2 seperate inputs.
 
 There is no limit to how many parameters a function can have, but they need to be seperated by commas such as in the example above.
+
+### Method Overloading
+
+You can have multiple methods with the same name in java, as long as they have different method signatures. This means that the parameters are different in some way. For example, both 
+
+```java
+int addNumbers(int a, int b) {}
+```
+and 
+```java
+int addNumbers(int a, int b, int c) {}
+```
+
+are valid.
+
+You can also vary the data types:
+
+```java
+String numString(String a, int b) {}
+```
+and
+```java
+String numString(int a, String b) {}
+```
+
+can both appear in the same file (class).
+
+>It is important to note that changing the names of parameters will just cause an error, unless the data types or order of parameters is also changed (The names are irrelevant).
